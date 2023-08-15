@@ -1,12 +1,12 @@
 import NavBar from "@/components/NavBar";
 
-export default function Home() {
+export default function Contas() {
   return (
     <>
-      <NavBar />
+      <NavBar active={"contas"} />
 
       <main>
-        <h1>Home</h1>
+        <h1>Contas</h1>
       </main>
     </>
 
